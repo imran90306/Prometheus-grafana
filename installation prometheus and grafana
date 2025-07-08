@@ -7,6 +7,9 @@ snap install helm --classic
 
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 
+his command tells Helm (a Kubernetes package manager) to add a new software source (called a "repository") named prometheus-community.
+This repo contains Helm charts for tools like Prometheus, Alertmanager, and Grafana, which are used for monitoring and alerting in Kubernetes.
+
 3.updating the repository
 
 helm repo update
